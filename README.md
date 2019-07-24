@@ -19,7 +19,7 @@
 * `--render`: render image, optional 
 * `--retrain`: continue training existing model, pass model using `--model`
 * `--state`: level, has to be specified
-<br>
+
 
 #### Examples 
 ##### Training 
