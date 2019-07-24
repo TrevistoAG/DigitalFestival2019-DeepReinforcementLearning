@@ -19,11 +19,11 @@
 * `--render`: render image, optional 
 * `--retrain`: continue training existing model, pass model using `--model`
 * `--state`: level, has to be specified
-
+<br>
 
 #### Examples 
 ##### Training 
-* trained model will be saved as .pkl file in folder
+trained model will be saved as .pkl file in folder <br>
 `python . –-train –-render –-state GreenHillZone.Act1`
 
 ##### Evaluation
@@ -33,13 +33,13 @@
 `python . --retrain --render --state GreenHillZone.Act2 --model green_hill_1.pkl`
 
 
-
+<br>
 ### Further information
 * green_hill_1.pkl and green_hill2.pkl have been pretrained on GreenHillZone.Act1 and GreenHillZone.Act2, respectively. 
 * gym_rl.py: Train to play Atari Games 
 
 
-
+<br>
 ### Ressources
 https://openai.com/blog/first-retro-contest-retrospective/
 https://github.com/openai/retro
